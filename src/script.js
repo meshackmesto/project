@@ -84,4 +84,3 @@ const updateMeme = (url, title, author) => {
         AuthorLikes[Author] = 1;
     }
   };
-
