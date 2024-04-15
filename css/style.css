@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(/image/bodyimage.png);
+    background-size: cover;
+    font-family: sans-serif;
+    
+
+
+}
+.meme-generator {
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+  }
+  
+  .meme-generator img {
+    height: 430px;
+    object-fit: cover;
+  }
+  
+  .meme-generator .generate-meme-btn {
+    padding: 8px 20px;
+    border: none;
+    border-left: 4px solid #fff;
+    border-right: 4px solid #fff;
+    border-radius: 6px;
+    margin: 24px 0;
+    font-size: 20px;
+    color:#222;
+    background: grey;
+    cursor: pointer;
+    transition: all 400ms ease;
+  }
+  
+  .meme-generator .generate-meme-btn:hover {
+    padding: 8px 36px;
+    border-left: 8px solid #222;
+    border-right: 8px solid #222;
+    letter-spacing: 3px;
+  }
+  
+  .meme-generator .meme-name {
+    margin: 8px;
+  }
+
+  form {
+    width: 50%;
+    height: 600px;
+    background: #fff;
+    margin: 0 auto;
+    border: 2px solid #fff;
+    box-shadow: 0 30px 50px rgba(0,0,0,0.5);
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  input[type="text"],
+  textarea {
+    display: block;
+    width: 80%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    resize: none;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    color: #222;
+    background: #fff;
+    transition: all 400ms ease;
+    box-sizing: border-box;
+  }
+  #add-meme-btn{
+    display:block;
+    margin: 50px auto;
+    width: fit-content;
+    border: 1px solid #222;
+    padding: 14px 50px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #222;
+    transition: background 0.5s;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    background: #fff;
+    cursor: pointer;
+    box-sizing: border-box;
+    outline: none;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+
+  }
+  #add-meme-btn:hover{
+    background: #ff004f;
+  }
+  .like-btn{
+    display:block;
+    margin: 50px auto;
+    width: fit-content;
+    border: 1px solid #222;
+    padding: 14px 50px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #222;
+    transition: background 0.5s;
+  }
+  .like-btn:hover{
+    background: #ff004f;
+  }
+
+  .leaderboard {
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    background: #fff;
+  }
+  
+  .leaderboard::before {
+    content: "Leaderboard:";
+    display: block;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .leaderboard::after {
+    content: "";
+    display: block;
+    border-bottom: 1px solid #ccc;
+    margin-top: 0.5rem;
+  }
+
+  .leaderboard-btn{
+    display:block;
+    margin: 50px auto;
+    width: fit-content;
+    border: 1px solid #222;
+    padding: 14px 50px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #222;
+    transition: background 0.5s;
+  }
+  .leaderboard-btn:hover{
+    background: #ff004f;
+  }
